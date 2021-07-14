@@ -1,0 +1,54 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+equation                                                                          0x0260     100
+operand1                                                                          0x02C4     100
+operand2                                                                          0x0328     100
+op                                                                                0x038C       1
+cur_char                                                                          0x038D       1
+op1                                                                               0x038E       4
+op2                                                                               0x0392       4
+result                                                                            0x0396       4
+final_string                                                                      0x039A     500
+_base_y                                                                           0x058E       4
+_seed                                                                             0x0592       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+op_found                                                                          R5           1
+buffer                                                                            R4           1
+_lcd_x                                                                            R7           1
+_lcd_y                                                                            R6           1
+_lcd_maxx                                                                         R9           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+reset_server                                                                      0x00072     43
+main                                                                              0x0009D     49
+parse_equation                                                                    0x000CE    165
+communicate                                                                       0x00173     76
+send_data                                                                         0x001BF     40
+read                                                                              0x001E7      4
+_lcd_write_nibble_G100                                                            0x001EB     20
+_lcd_write_data                                                                   0x001FF     12
+lcd_gotoxy                                                                        0x0020B     13
+lcd_clear                                                                         0x00218     12
+lcd_putchar                                                                       0x00224     21
+lcd_puts                                                                          0x00239     17
+lcd_init                                                                          0x0024A     46
+ftoa                                                                              0x00278    199
+atof                                                                              0x0033F    256
+memset                                                                            0x0043F     16
+strcat                                                                            0x0044F     17
+strcpyf                                                                           0x00460     13
+strlen                                                                            0x0046D     12
+isdigit                                                                           0x00479      9
+isspace                                                                           0x00482     11
+ftrunc                                                                            0x0048D     49
+floor                                                                             0x004BE     23

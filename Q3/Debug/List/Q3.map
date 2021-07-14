@@ -1,0 +1,37 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+year                                                                              0x0260       2
+is_setting                                                                        0x0262       1
+setting_pos                                                                       0x0263       2
+segments                                                                          0x0265      10
+blink                                                                             0x026F       2
+blink_cycle                                                                       0x0271       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+second                                                                            R4,R5        2
+minute                                                                            R6,R7        2
+hour                                                                              R8,R9        2
+day                                                                               R10,R11      2
+month                                                                             R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ext_int0_isr                                                                      0x00070     19
+ext_int1_isr                                                                      0x00083      5
+ext_int2_isr                                                                      0x00088      8
+timer1_compa_isr                                                                  0x00090     21
+increase                                                                          0x000A5     79
+decrease                                                                          0x000F4     77
+get_next_setting                                                                  0x00141     12
+update_time                                                                       0x0014D     57
+write                                                                             0x00186      7
+write_setting_mode                                                                0x0018D    111
+main                                                                              0x001FC     68

@@ -1,0 +1,4 @@
+VERSION:3 SOURCE_TIMESTAMP:5188BE03
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:F LEVEL:0 LINE:29 "timer1_compa_isr(void)"
+NODE:F LEVEL:0 LINE:34 "main(void)"

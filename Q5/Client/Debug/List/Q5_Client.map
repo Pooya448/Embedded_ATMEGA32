@@ -1,0 +1,39 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+data                                                                              0x02AE      20
+_base_y                                                                           0x02C2       4
+_seed                                                                             0x02C6       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+key                                                                               R5           1
+index                                                                             R4           1
+calced                                                                            R7           1
+first_num                                                                         R6           1
+_lcd_x                                                                            R9           1
+_lcd_y                                                                            R8           1
+_lcd_maxx                                                                         R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x000D6    340
+keypad_input                                                                      0x0022A     69
+calculate                                                                         0x0026F     34
+send_data                                                                         0x00291     42
+read                                                                              0x002BB      4
+_lcd_write_nibble_G100                                                            0x002BF     20
+_lcd_write_data                                                                   0x002D3     12
+lcd_gotoxy                                                                        0x002DF     13
+lcd_clear                                                                         0x002EC     12
+lcd_putchar                                                                       0x002F8     21
+lcd_puts                                                                          0x0030D     17
+lcd_init                                                                          0x0031E     46
+strcat                                                                            0x0034C     17
+strlen                                                                            0x0035D     12
